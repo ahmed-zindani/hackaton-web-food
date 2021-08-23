@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main  ">
+
+      <div class="imgcontainer">
+        <img src="profile.jpg"  width="200px" alt="Avatar" class="profile">
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input id="email" type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input id="password" type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button class="login-btn" onclick="login()" type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-storage.js"></script>
+
+
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCm_s6t-jKg5-R3tiYFdkslraUiW2mFHeM",
+    authDomain: "fir-working-ecd65.firebaseapp.com",
+    projectId: "fir-working-ecd65",
+    storageBucket: "fir-working-ecd65.appspot.com",
+    messagingSenderId: "35372756719",
+    appId: "1:35372756719:web:e111e2397394eb3b2bf51a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>

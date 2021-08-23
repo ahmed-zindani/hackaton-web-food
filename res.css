@@ -1,0 +1,60 @@
+.rest-index{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family:sans-serif;
+}
+
+ #footer {
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
+} 
+
+
+.search-bar-main[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  
+.search-bar-main[type=text]:focus {
+    width: 80%;
+    height: 40px;
+  }
+
+
+.icon-bar{
+    margin-left: 700px;
+}
+
+
+
+
+
+.card-box{
+    display:flex;
+    justify-content: space-around;
+    background-color: honeydew;
+    
+}
+.card{
+    margin: 20px;
+    width: 50%;
+    /* color: black; */
+
+}
+
+
+
+
+.h1-text{
+    text-align: center;
+    color:black;
+    margin: 30px;
+}
+
+
+
+
+
